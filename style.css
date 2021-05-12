@@ -21,6 +21,15 @@ body {
     margin-right: 10px;
     margin-left: 10px;
     cursor: pointer;
-    background: #fff;
+    background: #efeee7;
+    border-radius: 3px;
+  }
+#visualizations {
+    display: inline-block;
+    padding: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    background: #efeee7;
     border-radius: 3px;
   }
