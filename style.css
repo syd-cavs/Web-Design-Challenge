@@ -1,8 +1,10 @@
-h1 {
+#main_head {
+    padding: 20px 0;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 28px;
     text-align: center;
-    color: lightskyblue;
+    color: white;
     background-color: teal;
+    border: 30px double rgba(255,255,255,0.48);
   }
-br {
-    color: teal;
-}
