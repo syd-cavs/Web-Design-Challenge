@@ -2,45 +2,36 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <title>Weather Data Home</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title> Weather Data Home </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Latitude</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+    <div class = "navigation-bar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="https://syd-cavs.github.io/Web-Design-Challenge/">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Visualizations</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Comparisons</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Data</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="https://syd-cavs.github.io/Web-Design-Challenge/" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Home</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="max_temperature.html">Max Temperature</a>
+                        <a class="dropdown-item" href="humidity.html">Humidity</a>
+                        <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                        <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+                        
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Visualizations</a>
+                        <a class="dropdown-item" href="#">Comparisons</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Data</a>
           </div>
         </li>
-      </ul>
     </div>
   </nav>
 
@@ -64,23 +55,23 @@
         <h2 id="head_2"> Visualizations </h2>
         <div class = 'img-row'>
             <div class="col col-3 col-md-6">  
-                <a target="_blank" href="Images/Latitude_vs_Temperature.png">
-                <img id="temp-image2" src= "Images/Latitude_vs_Temperature.png" alt = "Latitude vs. Temperature">
+                <a target="_blank" href="../Images/Latitude_vs_Temperature.png">
+                <img id="temp-image2" src= "../Images/Latitude_vs_Temperature.png" alt = "Latitude vs. Temperature">
                 </a></div>
 
                 <div class="col col-3 col-md-6">  
-                <a target="_blank" href="Images/Latitude_vs_Cloudiness.png">
-                <img id="cloud-image" src= "Images/Latitude_vs_Cloudiness.png" alt = "Latitude vs. Cloudiness">
+                <a target="_blank" href="../Images/Latitude_vs_Cloudiness.png">
+                <img id="cloud-image" src= "../Images/Latitude_vs_Cloudiness.png" alt = "Latitude vs. Cloudiness">
                 </a></div>
 
                 <div class="col col-3 col-md-6">  
-                <a target="_blank" href="Images/Latitude_vs_Humidity.png">
-                <img id="humid-image" src= "Images/Latitude_vs_Humidity.png" alt = "Latitude vs. Humidity">
+                <a target="_blank" href="../Images/Latitude_vs_Humidity.png">
+                <img id="humid-image" src= "../Images/Latitude_vs_Humidity.png" alt = "Latitude vs. Humidity">
                 </a> </div>
 
                 <div class="col col-3 col-md-6">  
-                <a target="_blank" href="Images/Latitude_vs_Wind_Speed.png">
-                <img id="wind-image" src= "Images/Latitude_vs_Wind_Speed.png" alt = "Latitude vs. Wind Speed">
+                <a target="_blank" href="../Images/Latitude_vs_Wind_Speed.png">
+                <img id="wind-image" src= "../Images/Latitude_vs_Wind_Speed.png" alt = "Latitude vs. Wind Speed">
                 </a></div>
             </div>
         </div>

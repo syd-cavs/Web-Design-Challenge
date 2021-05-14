@@ -1,0 +1,49 @@
+#main_head {
+    padding: 20px 0;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 28px;
+    text-align: center;
+    color: white;
+    background-color: teal;
+    border: 30px double rgba(255,255,255,0.48);
+  }
+body {
+    background: #efeee7;
+}
+.navbar{
+    max-height: 57px; 
+}
+.navigation .navbar-brand{
+    color: white; 
+    margin-left: 30px; 
+    padding: inherit; 
+    font-weight: bold; 
+    background-color: #0BADA6;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar{
+    background-color: white; 
+    font-size: 15px; 
+}
+.active, .dropdown-menu .dropdown-item:active a:hover{
+    background-color:#E7E7E7!important; 
+}
+.dropdown-item{
+    color: #6D8092 !important; 
+}
+.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
+    background-color:#E7E7E7 !important; 
+}
+.dropdown-menu {
+    margin: 0;
+}
+#visualizations {
+    display: inline-block;
+    padding: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    background: #efeee7;
+    border-radius: 3px;
+  }
