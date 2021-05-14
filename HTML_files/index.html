@@ -21,16 +21,13 @@
           <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="Visualizations.html">Visualizations</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link" href="Comparisons.html">Comparisons</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="Data.html">Data</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="Visualizations.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Visualizations
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -44,46 +41,53 @@
       </ul>
     </div>
   </nav>
+  
+  <div class="container summary">    
+      <div class="row">
+          <div class="col-md-8">
+              <div class="col-md-12">
+                  <h1>Summary: Latitude vs. X </h1>                    
+                  <hr>
 
-    <div class="container">
-        <div class="summary-home">
-            <h1 class="display-4">WeatherPy Summary</h1>
-            <p class="lead">Summary: Latitude vs. X</p>
-            <hr class="my-4">
-            <a target="_blank" href="../Images/Latitude_vs_Temperature.png">
-            <img id="temp-image" src= "../Images/Latitude_vs_Temperature.png" alt = "Latitude vs. Temperature">
-            </a>
-            <ol>
-                <li> Looking at the scatterplots that are looking at all cities of the world we see little to no correlation when looking at latitude compared to humidity, cloudiness, and wind speed.  However, we do notice a trend when looking at latitude compared to maximum temperature.  This plot is in the shape of an arch with the peak values starting around 0 degrees in latitude.  This is expected considering this is where the equator is located. </li>
-                <li> The northern hemisphere plots show a strong negative correlation between latitude and temperature, this makes sense considering the lowest value for latitude is the equator.  There is very weak correlation between latitude and humidy, as well as latitude and wind speed.  There is a very weak negative correlation between latitude and cloudiness. </li>
-                <li> The southern hemisphere plots show a moderately strong positive correlation between latitude and temperature, which makes sense considering the highest value for latitude is the equator.  It was interesting that the correlation here 0.64 was not as strong as the northern hemisphere plot, -.84, considering this data should be inverse, but I attribute this fact to the fact that the northern hemisphere scatterplot clearly has significantly more data points.  There was weak positive correlation when looking at humidity and cloudiness, and weak negative correlation when looking at wind speed. </li>
-                <li> I had expected that there could be more of a correlation when looking at cloudiness, humidity, and wind speed isolated to one hemisphere rather than all the global points, but it does not appear to be so.  While the correlation for both hemispheres for wind speed was weak, it was interesting that the correlation was opposite.  I don't know much about wind speed and how the Earth's spin affects it, but I theorize there could be a relationship there. </li>
-        </ol>
+                    <div class="thumbnail">
+                        <img class="img-thumbnail float-left" src="../Images/Latitude_vs_Temperature.png" width="50%" alt="temperature">
+                    </div>
+                </div>
+                <p> The purpose of the project was to look at temperature, cloudiness, humidity, and wind speed in relation to global points related to latitude. </p>
+
+                <p> This was accomplished by using OpenWeatherMap API to obtain cities for the data set. </p>
+
+                <p> After the datasets were cleaned up and prepared for usage, plots were created using MatplotLib. </p>
+
+                <p> These plots are listed under the Visualizations Tab. </p>
         </div>
     </div>
 
-    <div class="container">
-        <div class="summary-home">
-            <h2 class="display-4">Visualizations</h2>
-            <hr class="my-4">  
-            <a target="_blank" href="../Images/Latitude_vs_Temperature.png">
-            <img id="temp-image2" src= "../Images/Latitude_vs_Temperature.png" alt = "Latitude vs. Temperature">
-            </a></div>
+    <div class="col-md-4">
+      <div class="col-md-12">
+        <h1>Visualizations </h1>
+          <hr class="my-4">  
+            <div class="row">
 
-            <div class="col col-3 col-md-6">  
-            <a target="_blank" href="../Images/Latitude_vs_Cloudiness.png">
-            <img id="cloud-image" src= "../Images/Latitude_vs_Cloudiness.png" alt = "Latitude vs. Cloudiness">
-            </a></div>
+              <div class="col-3 col-md-6"> 
+              <a target="_blank" href="max_temperature.html">
+              <img id="temp-image2" src= "../Images/Latitude_vs_Temperature.png" alt = "Latitude vs. Temperature">
+              </a></div>
 
-            <div class="col col-3 col-md-6">  
-            <a target="_blank" href="../Images/Latitude_vs_Humidity.png">
-            <img id="humid-image" src= "../Images/Latitude_vs_Humidity.png" alt = "Latitude vs. Humidity">
-            </a> </div>
+              <div class="col-3 col-md-6">  
+              <a target="_blank" href="cloudiness.html">
+              <img id="cloud-image" src= "../Images/Latitude_vs_Cloudiness.png" alt = "Latitude vs. Cloudiness">
+              </a></div>
 
-            <div class="col col-3 col-md-6">  
-            <a target="_blank" href="../Images/Latitude_vs_Wind_Speed.png">
-            <img id="wind-image" src= "../Images/Latitude_vs_Wind_Speed.png" alt = "Latitude vs. Wind Speed">
-            </a></div>
+              <div class="col-3 col-md-6">  
+              <a target="_blank" href="humidity.html">
+              <img id="humid-image" src= "../Images/Latitude_vs_Humidity.png" alt = "Latitude vs. Humidity">
+              </a> </div>
+
+              <div class="col-3 col-md-6">  
+              <a target="_blank" href="wind_speed.html">
+              <img id="wind-image" src= "../Images/Latitude_vs_Wind_Speed.png" alt = "Latitude vs. Wind Speed">
+              </a></div>
         </div>
     </div>
 
