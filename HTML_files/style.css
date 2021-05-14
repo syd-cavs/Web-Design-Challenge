@@ -11,30 +11,12 @@
 body {
     background: #efeee7;
 }
-.navbar{
-    max-height: 57px; 
+
+
+.nav-item.dropdown.show {
+    background-color: teal;
 }
-.navigation .navbar-brand{
-    color: white; 
-    margin-left: 30px; 
-    padding: inherit; 
-    font-weight: bold; 
-    background-color: #0BADA6;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.navbar{
-    background-color: white; 
-    font-size: 15px; 
-}
-.active, .dropdown-menu .dropdown-item:active a:hover{
-    background-color:#E7E7E7!important; 
-}
-.dropdown-item{
-    color: #6D8092 !important; 
-}
-.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
-    background-color:#E7E7E7 !important; 
-}
+
 .dropdown-menu {
     margin: 0;
 }
@@ -47,3 +29,16 @@ body {
     background: #efeee7;
     border-radius: 3px;
   }
+
+  @media(max-width:767px){
+    .navbar.bg-light{
+        background-color: rgb(81, 175, 160)!important;    
+    }
+
+    .navbar-collapse{
+        background-color: #f8f9fa;
+    }
+    .navbar{
+        padding:inherit;
+    }
+}
