@@ -11,15 +11,6 @@
 body {
     background: #efeee7;
 }
-
-
-.nav-item.dropdown.show {
-    background-color: teal;
-}
-
-.dropdown-menu {
-    margin: 0;
-}
 #visualizations {
     display: inline-block;
     padding: 20px;
