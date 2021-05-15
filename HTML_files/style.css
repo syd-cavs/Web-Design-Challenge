@@ -10,30 +10,43 @@ h1{
     font-weight: 400;
     font-style: italic;
 }
-.temp1 {
-    width: 100%
+h3 {
+    font-family: Georgia, serif;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 0px;
+    word-spacing: 3px;
+    color: teal;
+    font-weight: 400;
+    font-style: italic; 
 }
+#temp1 {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} 
+.image-thumbnail2{
+    width: "200";
+    height: "200";
+} 
 #container-summary{
     padding: 20px 0;
     margin: 0;
     margin-bottom: 20px;
     font-size: 28px;
 }
-#visualizations {
-    padding: 20px 0;
-    margin: 0;
-    margin-bottom: 20px;
-    font-size: 28px;
-    text-align: center;
-    color: white;
-    background-color: teal;
-    border: 30px double rgba(255,255,255,0.48);
-  }
+
 .image-thumbnail{
-    width: 100%;
+    width: 180px;
+    height: 160px;
+} 
+#temp-temp{
+    width: 500px;
+    height: 400px;
 }
 
-  @media(max-width:767px){
+@media(max-width:767px){
     .navbar.bg-light{
         background-color: teal !important;    
     }

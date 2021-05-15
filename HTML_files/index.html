@@ -47,60 +47,37 @@
     </div>
   </nav>
 
-  <div class="row">
-    <div class="col-md-12">
-
-      <div class="container-fluid">    
-          <div class="col-md-8">
-              <h1>Summary: Latitude vs. X </h1>                    
-              <hr>
-                <div class="thumbnail">
-                  <div class = "row">
-                    <div class = "col">
-                      <img id="temp1" class="img-thumbnail" src="../Images/Latitude_vs_Temperature.png" width="50%" alt="temperature">
-                    </div>
-                    <div class = "col">
-                      <p> The purpose of the project was to look at temperature, cloudiness, humidity, and wind speed in relation to global points related to latitude. </p>
-                      <p> This was accomplished by using OpenWeatherMap API to obtain cities for the data set. </p>
-                      <p> After the datasets were cleaned up and prepared for usage, plots were created using MatplotLib. </p>
-                      <p> These plots are show below. </p>
-                    </div>
-                  </div>
-                </div>
+  <div class="container-fluid"> 
+    <div class = "row">   
+      <div class="col-lg-9">
+          <h1>Summary: Latitude vs. X </h1>                    
+          <hr>
+            <div class="thumbnail">
+              <img id="temp-temp" class="img-thumbnail" src="../Images/Latitude_vs_Temperature.png" alt="temperature">
+              <p> The purpose of the project was to look at temperature, cloudiness, humidity, and wind speed in relation to global points related to latitude. </p>
+              <p> This was accomplished by using OpenWeatherMap API to obtain cities for the data set. </p>
+              <p> After the datasets were cleaned up and prepared for usage, plots were created using MatplotLib. </p>
+              <p> These plots are show below. </p>
+              </div>
+            </div>
+      <div class="col-lg-3">
+        <h1>Visualizations </h1>
+        <hr class="my-4">  
+            <a target="_blank" href="max_temperature.html">
+            <img id="temp-image2" class = "image-thumbnail" src= "../Images/Latitude_vs_Temperature.png" alt = "Latitude vs. Temperature">
+            </a>
+            <a target="_blank" href="cloudiness.html">
+            <img id="cloud-image" class = "image-thumbnail" src= "../Images/Latitude_vs_Cloudiness.png" alt = "Latitude vs. Cloudiness">
+            </a>
+            <a target="_blank" href="humidity.html">
+            <img id="humid-image" class = "image-thumbnail" src= "../Images/Latitude_vs_Humidity.png" alt = "Latitude vs. Humidity">
+            </a>
+            <a target="_blank" href="wind_speed.html">
+            <img id="wind-image" class = "image-thumbnail" src= "../Images/Latitude_vs_Wind_Speed.png" alt = "Latitude vs. Wind Speed">
+            </a>
           </div>
       </div>
-
-      <div class="container-fluid">
-        <div class="col-md-4">
-          <h1>Visualizations </h1>
-            <hr class="my-4">  
-
-              <div class="row">
-                <div class="col-3 col-md-6"> 
-                <a target="_blank" href="max_temperature.html">
-                <img id="temp-image2" class = "image-thumbnail" src= "../Images/Latitude_vs_Temperature.png" alt = "Latitude vs. Temperature">
-                </a></div>
-
-                <div class="col-3 col-md-6">  
-                <a target="_blank" href="cloudiness.html">
-                <img id="cloud-image" class = "image-thumbnail" src= "../Images/Latitude_vs_Cloudiness.png" alt = "Latitude vs. Cloudiness">
-                </a></div>
-              </div>
-              <br> </br>
-              <div class ="row">
-                <div class="col-3 col-md-6">  
-                <a target="_blank" href="humidity.html">
-                <img id="humid-image" class = "image-thumbnail" src= "../Images/Latitude_vs_Humidity.png" alt = "Latitude vs. Humidity">
-                </a> </div>
-
-                <div class="col-3 col-md-6">  
-                <a target="_blank" href="wind_speed.html">
-                <img id="wind-image" class = "image-thumbnail" src= "../Images/Latitude_vs_Wind_Speed.png" alt = "Latitude vs. Wind Speed">
-                </a></div>
-              </div>
-          </div>
       </div>
-    </div>
   </div>
 
 </body>
